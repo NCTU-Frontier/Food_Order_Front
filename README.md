@@ -6,7 +6,7 @@ ToolBox Front End repo
 ## framwork
 
 * JS
-- (Angular 2)[https://angular.io/]
+- [Angular 2](https://angular.io/)
 
 * CSS
 - 
