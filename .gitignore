@@ -1,2 +1,7 @@
 # npm packages
 node_modules
+typings
+
+# ignore app folder except TypeScript files
+app/*
+!app/*.ts
