@@ -6,11 +6,15 @@ import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
-		NavComponent
+		NavComponent,
+		FooterComponent,
+		HomepageComponent
 	],
 	imports: [
 		BrowserModule,
@@ -20,4 +24,5 @@ import { NavComponent } from './nav/nav.component';
 	providers: [],
 	bootstrap: [AppComponent]
 })
+
 export class AppModule { }
