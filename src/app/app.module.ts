@@ -7,14 +7,12 @@ import { MaterialModule } from '@angular/material';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
-import { HomepageComponent } from './homepage/homepage.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
 		NavComponent,
-		FooterComponent,
-		HomepageComponent
+		FooterComponent
 	],
 	imports: [
 		BrowserModule,
