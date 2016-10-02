@@ -20,6 +20,11 @@ Before Started, install npm:
 ```
 sudo apt install nodejs npm
 ```
+And angular-cli:
+```
+sudo npm install angular-cli
+```
+And [install watchman](https://facebook.github.io/watchman/docs/install.html) (I suppose using github to install it)
 
 #### Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

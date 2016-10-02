@@ -8,5 +8,4 @@ import { Component } from '@angular/core';
 
 export class AppComponent {
 	title = 'This is a ToolBox Test!';
-	icon = './toolbox.png';
 }

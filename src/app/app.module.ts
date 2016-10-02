@@ -5,16 +5,17 @@ import { HttpModule } from '@angular/http';
 import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
 	declarations: [
-		AppComponent
+		AppComponent,
+		NavComponent
 	],
 	imports: [
 		BrowserModule,
 		FormsModule,
-		HttpModule,
-		MaterialModule
+		HttpModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]
