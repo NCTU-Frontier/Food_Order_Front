@@ -6,11 +6,13 @@ import { MaterialModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
+import { BodyComponent } from './body/body.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
 		NavComponent,
+		BodyComponent,
 	],
 	imports: [
 		BrowserModule,
