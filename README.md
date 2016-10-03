@@ -11,6 +11,7 @@ This project was generated with [angular-cli](https://github.com/angular/angular
  - [Angular-cli](https://github.com/angular/angular-cli) License: [MIT](https://github.com/angular/angular-cli/blob/master/LICENSE)
 
 * CSS
+ - [SASS](http://sass-lang.com/) License: [MIT](http://sass-lang.com/documentation/file.MIT-LICENSE.html)
  - [Angular Material](https://material.angular.io/) License: [MIT](https://github.com/angular/material2/blob/master/LICENSE)
  - [Materialize](http://materializecss.com/) License: [MIT](https://github.com/Dogfalo/materialize/blob/master/LICENSE)
 
@@ -20,11 +21,29 @@ Before Started, install npm:
 ```
 sudo apt install nodejs npm
 ```
-And angular-cli:
+
+Angular-cli:
 ```
 sudo npm install angular-cli
 ```
+
 And [install watchman](https://facebook.github.io/watchman/docs/install.html) (I suppose using github to install it)
+```
+git clone https://github.com/facebook/watchman.git
+cd watchman
+./autogen.sh
+./configure
+make
+sudo make install
+cd ..
+yes | rm -r watchman
+```
+
+SASS:
+```
+sudo apt install rbenv
+sudo su -c "gem install sass"
+```
 
 #### Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
