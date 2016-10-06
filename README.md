@@ -15,7 +15,9 @@ This project was generated with [angular-cli](https://github.com/angular/angular
  - [Angular Material](https://material.angular.io/) License: [MIT](https://github.com/angular/material2/blob/master/LICENSE)
  - [Materialize](http://materializecss.com/) License: [MIT](https://github.com/Dogfalo/materialize/blob/master/LICENSE)
 
-## How to used
+## How to use
+
+#### Setting up environment
 
 Before Started, install npm:
 ```
@@ -43,6 +45,13 @@ SASS:
 ```
 sudo apt install rbenv
 sudo su -c "gem install sass"
+```
+
+#### npm install
+
+npm (<font color="red">do not use sudo</font>):
+```
+npm install
 ```
 
 #### Development server
