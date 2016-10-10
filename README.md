@@ -14,6 +14,7 @@ This project was generated with [angular-cli](https://github.com/angular/angular
  - [SASS](http://sass-lang.com/) License: [MIT](http://sass-lang.com/documentation/file.MIT-LICENSE.html)
  - [Angular Material](https://material.angular.io/) License: [MIT](https://github.com/angular/material2/blob/master/LICENSE)
  - [Materialize](http://materializecss.com/) License: [MIT](https://github.com/Dogfalo/materialize/blob/master/LICENSE)
+ - [Google fonts](https://fonts.google.com/) Privacy Policy: [Google Privacy Policy](https://www.google.com/policies/privacy)
 
 ## How to use
 
@@ -26,7 +27,7 @@ sudo apt install nodejs npm
 
 Angular-cli:
 ```
-sudo npm install angular-cli
+sudo npm install -g angular-cli
 ```
 
 And [install watchman](https://facebook.github.io/watchman/docs/install.html) (I suppose using github to install it)
