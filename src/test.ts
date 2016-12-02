@@ -16,15 +16,15 @@ __karma__.loaded = function () {};
 
 
 Promise.all([
-	System.import('@angular/core/testing'),
-	System.import('@angular/platform-browser-dynamic/testing')
+  System.import('@angular/core/testing'),
+  System.import('@angular/platform-browser-dynamic/testing')
 ])
 // First, initialize the Angular testing environment.
 .then(([testing, testingBrowser]) => {
-	testing.getTestBed().initTestEnvironment(
-		testingBrowser.BrowserDynamicTestingModule,
-		testingBrowser.platformBrowserDynamicTesting()
-	);
+  testing.getTestBed().initTestEnvironment(
+    testingBrowser.BrowserDynamicTestingModule,
+    testingBrowser.platformBrowserDynamicTesting()
+  );
 })
 // Then we find all the tests.
 .then(() => require.context('./', true, /\.spec\.ts/))
